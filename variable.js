@@ -1,0 +1,10 @@
+var x=20;
+console.log(x);
+var y="12037.56";
+var z=parseFloat(y);
+console.log(typeof x);
+console.log(typeof y);
+var sum=x+z;
+console.log(sum);
+var _ =10;
+console.log(_);
