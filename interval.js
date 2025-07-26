@@ -5,11 +5,12 @@ setTimeout(() => {
     console.log("sorry for waiting you!");
 }, 5000);
 let num=0;
-setInterval(() => {
+const clockId=setInterval(() => {
     num++;
-    if (num<7)
-    console.log("i am calling!", num);
-}, 30);
+    if (num>6)
+    clearInterval(clockId);
+console.log("i am calling!", num);
+}, 300);
 
 console.log(4);
 console.log(5);
